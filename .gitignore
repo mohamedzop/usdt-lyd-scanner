@@ -1,0 +1,12 @@
+node_modules/
+server.log
+cf_*.log
+cf_test.log
+gh_login.log
+test_start*.log
+tunnel.log
+*.pid
+cloudflared.exe
+cloudflared
+.freebuff/
+nohup.out
