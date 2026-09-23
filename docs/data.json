@@ -1,0 +1,860 @@
+{
+  "timestamp": 1791660196977,
+  "timeAr": "10‏/10‏/2026، 19:23:16",
+  "pair": "USDT/LYD",
+  "source": "Binance P2P",
+  "buy": {
+    "count": 9,
+    "best": 10.03,
+    "bestAd": {
+      "price": 10.03,
+      "minLimit": 10,
+      "maxLimit": 65000,
+      "available": 9.99,
+      "completionRate": 99.7,
+      "orders": 1512,
+      "nickname": "Algawoug_Osama",
+      "isMerchant": false,
+      "payMethods": [
+        "Bank Transfer"
+      ],
+      "tradeType": "BUY"
+    },
+    "avg": 10.46,
+    "median": 10.2,
+    "worst": 12.85,
+    "totalAvailable": 10408.02,
+    "spreadAds": [
+      {
+        "price": 10.03,
+        "minLimit": 10,
+        "maxLimit": 65000,
+        "available": 9.99,
+        "completionRate": 99.7,
+        "orders": 1512,
+        "nickname": "Algawoug_Osama",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.05,
+        "minLimit": 10,
+        "maxLimit": 50000,
+        "available": 1509.92,
+        "completionRate": 99.1,
+        "orders": 301,
+        "nickname": "LLANY4",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.06,
+        "minLimit": 10,
+        "maxLimit": 5000,
+        "available": 6.33,
+        "completionRate": 96.6,
+        "orders": 223,
+        "nickname": "Ali_Musbah",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.1,
+        "minLimit": 100,
+        "maxLimit": 5350,
+        "available": 525.61,
+        "completionRate": 100,
+        "orders": 36,
+        "nickname": "MASOUD_LY",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.2,
+        "minLimit": 70,
+        "maxLimit": 3000,
+        "available": 37.63,
+        "completionRate": 94.9,
+        "orders": 408,
+        "nickname": "MUETAZ_JBRIL",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer",
+          "BANK"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.25,
+        "minLimit": 1000,
+        "maxLimit": 65000,
+        "available": 4420.67,
+        "completionRate": 98.9,
+        "orders": 172,
+        "nickname": "DinarDesk",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.3,
+        "minLimit": 100,
+        "maxLimit": 35000,
+        "available": 2750.54,
+        "completionRate": 100,
+        "orders": 517,
+        "nickname": "Mister_Coine",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 10.32,
+        "minLimit": 6000,
+        "maxLimit": 65000,
+        "available": 1100,
+        "completionRate": 98.8,
+        "orders": 393,
+        "nickname": "Eyad agha",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "BUY"
+      },
+      {
+        "price": 12.85,
+        "minLimit": 10,
+        "maxLimit": 10000,
+        "available": 47.33,
+        "completionRate": 94.8,
+        "orders": 346,
+        "nickname": "Hammad_LY",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer",
+          "Jumhouria Bank",
+          "Transfers with specific bank"
+        ],
+        "tradeType": "BUY"
+      }
+    ]
+  },
+  "sell": {
+    "count": 18,
+    "best": 9.98,
+    "bestAd": {
+      "price": 9.98,
+      "minLimit": 100,
+      "maxLimit": 3000,
+      "available": 96.06,
+      "completionRate": 94.9,
+      "orders": 408,
+      "nickname": "MUETAZ_JBRIL",
+      "isMerchant": false,
+      "payMethods": [
+        "Jumhouria Bank",
+        "Transfers with specific bank",
+        "Bank Transfer",
+        "CIH Bank"
+      ],
+      "tradeType": "SELL"
+    },
+    "avg": 8.77,
+    "median": 9.71,
+    "worst": 6.35,
+    "totalAvailable": 130646.08,
+    "spreadAds": [
+      {
+        "price": 9.98,
+        "minLimit": 100,
+        "maxLimit": 3000,
+        "available": 96.06,
+        "completionRate": 94.9,
+        "orders": 408,
+        "nickname": "MUETAZ_JBRIL",
+        "isMerchant": false,
+        "payMethods": [
+          "Jumhouria Bank",
+          "Transfers with specific bank",
+          "Bank Transfer",
+          "CIH Bank"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.98,
+        "minLimit": 2000,
+        "maxLimit": 15000,
+        "available": 500,
+        "completionRate": 94.7,
+        "orders": 387,
+        "nickname": "Alicrypto218",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.94,
+        "minLimit": 500,
+        "maxLimit": 4500,
+        "available": 450.71,
+        "completionRate": 94.5,
+        "orders": 34,
+        "nickname": "abdalgader_b",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.93,
+        "minLimit": 10,
+        "maxLimit": 2150,
+        "available": 216.52,
+        "completionRate": 96.6,
+        "orders": 223,
+        "nickname": "Ali_Musbah",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.93,
+        "minLimit": 2000,
+        "maxLimit": 27790,
+        "available": 3000,
+        "completionRate": 96.6,
+        "orders": 28,
+        "nickname": "Crypto_LY_79",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.92,
+        "minLimit": 10,
+        "maxLimit": 65000,
+        "available": 9616.94,
+        "completionRate": 99.7,
+        "orders": 1512,
+        "nickname": "Algawoug_Osama",
+        "isMerchant": false,
+        "payMethods": [
+          "CIH Bank",
+          "Bank Transfer",
+          "Jumhouria Bank",
+          "Transfers with specific bank"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.91,
+        "minLimit": 500,
+        "maxLimit": 50000,
+        "available": 1500,
+        "completionRate": 91.6,
+        "orders": 98,
+        "nickname": "Mohammeder",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.9,
+        "minLimit": 10,
+        "maxLimit": 19400,
+        "available": 2818.44,
+        "completionRate": 94.3,
+        "orders": 392,
+        "nickname": "User-fc0674rr",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.85,
+        "minLimit": 100,
+        "maxLimit": 985,
+        "available": 100,
+        "completionRate": 100,
+        "orders": 23,
+        "nickname": "Ajajecx",
+        "isMerchant": false,
+        "payMethods": [
+          "Jumhouria Bank",
+          "Bank Transfer"
+        ],
+        "tradeType": "SELL"
+      },
+      {
+        "price": 9.57,
+        "minLimit": 10,
+        "maxLimit": 65000,
+        "available": 49988.09,
+        "completionRate": 94.8,
+        "orders": 346,
+        "nickname": "Hammad_LY",
+        "isMerchant": false,
+        "payMethods": [
+          "Bank Transfer",
+          "CIH Bank",
+          "Jumhouria Bank",
+          "Transfers with specific bank"
+        ],
+        "tradeType": "SELL"
+      }
+    ]
+  },
+  "spread": -0.05,
+  "spreadPct": -0.5,
+  "mid": 10,
+  "newAds": {
+    "buy": 0,
+    "sell": 0,
+    "goneBuy": 0,
+    "goneSell": 0,
+    "recent": [
+      {
+        "id": "1791659573652-b1",
+        "t": 1791659573652,
+        "type": "buy",
+        "nickname": "MASOUD_LY",
+        "price": 10.1,
+        "available": 525.61
+      },
+      {
+        "id": "1791659106214-b1",
+        "t": 1791659106214,
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 10.6,
+        "available": 3027.93
+      },
+      {
+        "id": "1791659002334-s1",
+        "t": 1791659002334,
+        "type": "sell",
+        "nickname": "Hammad_LY",
+        "price": 9.57,
+        "available": 49988.09
+      },
+      {
+        "id": "1791658637449-b1",
+        "t": 1791658637449,
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 11.1,
+        "available": 3007.84
+      },
+      {
+        "id": "1791657440854-b1",
+        "t": 1791657440854,
+        "type": "buy",
+        "nickname": "DinarDesk",
+        "price": 10.25,
+        "available": 5688.95
+      },
+      {
+        "id": "1791657284190-b1",
+        "t": 1791657284190,
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 12.85,
+        "available": 47.33
+      },
+      {
+        "id": "1791657284190-s1",
+        "t": 1791657284190,
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 3356.5
+      },
+      {
+        "id": "1791657232020-b1",
+        "t": 1791657232020,
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 10.6,
+        "available": 3027.93
+      },
+      {
+        "id": "1791657179951-b1",
+        "t": 1791657179951,
+        "type": "buy",
+        "nickname": "Ali_Musbah",
+        "price": 10.06,
+        "available": 6.33
+      },
+      {
+        "id": "1791656711339-b1",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "abdo_almishrge",
+        "price": 10.04,
+        "available": 619.22
+      },
+      {
+        "id": "1791656711339-b2",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "LLANY4",
+        "price": 10.05,
+        "available": 4000
+      },
+      {
+        "id": "1791656711339-b3",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "MUETAZ_JBRIL",
+        "price": 10.2,
+        "available": 46.69
+      },
+      {
+        "id": "1791656711339-b4",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "Mister_Coine",
+        "price": 10.3,
+        "available": 3021.41
+      },
+      {
+        "id": "1791656711339-b5",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "DinarDesk",
+        "price": 10.69,
+        "available": 5688.95
+      },
+      {
+        "id": "1791656711339-b6",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 11.1,
+        "available": 3100
+      },
+      {
+        "id": "1791656711339-b7",
+        "t": 1791656711339,
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 12.85,
+        "available": 47.33
+      },
+      {
+        "id": "1791656711339-s1",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "MUETAZ_JBRIL",
+        "price": 9.98,
+        "available": 206
+      },
+      {
+        "id": "1791656711339-s2",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "Alicrypto218",
+        "price": 9.98,
+        "available": 500
+      },
+      {
+        "id": "1791656711339-s3",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "Ali_Musbah",
+        "price": 9.93,
+        "available": 216.52
+      },
+      {
+        "id": "1791656711339-s4",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "Crypto_LY_79",
+        "price": 9.93,
+        "available": 3000
+      },
+      {
+        "id": "1791656711339-s5",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "Algawoug_Osama",
+        "price": 9.92,
+        "available": 9616.94
+      },
+      {
+        "id": "1791656711339-s6",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.9,
+        "available": 2818.44
+      },
+      {
+        "id": "1791656711339-s7",
+        "t": 1791656711339,
+        "type": "sell",
+        "nickname": "Hammad_LY",
+        "price": 9.57,
+        "available": 49988.09
+      },
+      {
+        "id": "1791642454424-s1",
+        "t": 1791642454424,
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 4000
+      },
+      {
+        "id": "1791642454424-s2",
+        "t": 1791642454424,
+        "type": "sell",
+        "nickname": "MUETAZ_JBRIL",
+        "price": 9.97,
+        "available": 184.97
+      },
+      {
+        "id": "1791642402572-b1",
+        "t": 1791642402572,
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 11.5,
+        "available": 2457.6
+      },
+      {
+        "id": "1791642350759-b1",
+        "t": 1791642350759,
+        "type": "buy",
+        "nickname": "Algawoug_Osama",
+        "price": 10.03,
+        "available": 4967.11
+      },
+      {
+        "id": "1791642247200-s1",
+        "t": 1791642247200,
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791642039612-b1",
+        "t": 1791642039612,
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 12.85,
+        "available": 47.33
+      },
+      {
+        "id": "1791641935666-b1",
+        "t": 1791641935666,
+        "type": "buy",
+        "nickname": "Mister_Coine",
+        "price": 10.31,
+        "available": 2662.42
+      }
+    ],
+    "recentGone": [
+      {
+        "id": "1791660041249-bg1",
+        "t": 1791660041249,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 10.6,
+        "available": 3007.84
+      },
+      {
+        "id": "1791659002334-sg1",
+        "t": 1791659002334,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 3356.5
+      },
+      {
+        "id": "1791658272923-bg1",
+        "t": 1791658272923,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "abdo_almishrge",
+        "price": 10.04,
+        "available": 379.98
+      },
+      {
+        "id": "1791657284190-bg1",
+        "t": 1791657284190,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "bofabelhaj",
+        "price": 10.07,
+        "available": 5.72
+      },
+      {
+        "id": "1791657284190-sg1",
+        "t": 1791657284190,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "Hammad_LY",
+        "price": 9.57,
+        "available": 49988.09
+      },
+      {
+        "id": "1791657179951-bg1",
+        "t": 1791657179951,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 12.85,
+        "available": 47.33
+      },
+      {
+        "id": "1791656711339-bg1",
+        "t": 1791656711339,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Alicrypto218",
+        "price": 10.05,
+        "available": 131.7
+      },
+      {
+        "id": "1791656711339-bg2",
+        "t": 1791656711339,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Ali_Musbah",
+        "price": 10.11,
+        "available": 17.15
+      },
+      {
+        "id": "1791656711339-sg1",
+        "t": 1791656711339,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 4000
+      },
+      {
+        "id": "1791656711339-sg2",
+        "t": 1791656711339,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "PREXSTOR",
+        "price": 9.92,
+        "available": 1042.79
+      },
+      {
+        "id": "1791642454424-sg1",
+        "t": 1791642454424,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791642350759-bg1",
+        "t": 1791642350759,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 12.85,
+        "available": 47.33
+      },
+      {
+        "id": "1791642247200-sg1",
+        "t": 1791642247200,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 671.5
+      },
+      {
+        "id": "1791642039612-bg1",
+        "t": 1791642039612,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Algawoug_Osama",
+        "price": 10.03,
+        "available": 5000
+      },
+      {
+        "id": "1791640949588-bg1",
+        "t": 1791640949588,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "abdo_almishrge",
+        "price": 10.09,
+        "available": 3293.09
+      },
+      {
+        "id": "1791640949588-sg1",
+        "t": 1791640949588,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791640845903-sg1",
+        "t": 1791640845903,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "MUETAZ_JBRIL",
+        "price": 9.97,
+        "available": 215
+      },
+      {
+        "id": "1791640534597-sg1",
+        "t": 1791640534597,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791639756118-sg1",
+        "t": 1791639756118,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 342
+      },
+      {
+        "id": "1791639652312-sg1",
+        "t": 1791639652312,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791639548512-bg1",
+        "t": 1791639548512,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "MASOUD_LY",
+        "price": 10.1,
+        "available": 525.61
+      },
+      {
+        "id": "1791639341103-sg1",
+        "t": 1791639341103,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "abdo_almishrge",
+        "price": 9.98,
+        "available": 2879
+      },
+      {
+        "id": "1791639133552-sg1",
+        "t": 1791639133552,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "User-fc0674rr",
+        "price": 9.7,
+        "available": 2818.44
+      },
+      {
+        "id": "1791639081624-bg1",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Mister_Coine",
+        "price": 10.22,
+        "available": 2662.42
+      },
+      {
+        "id": "1791639081624-bg2",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Ajajecx",
+        "price": 10.25,
+        "available": 40.53
+      },
+      {
+        "id": "1791639081624-bg3",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "Hammad_LY",
+        "price": 10.59,
+        "available": 47.33
+      },
+      {
+        "id": "1791639081624-bg4",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "buy",
+        "nickname": "User-fc0674rr",
+        "price": 10.6,
+        "available": 3297.2
+      },
+      {
+        "id": "1791639081624-sg1",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "MASOUD_LY",
+        "price": 9.93,
+        "available": 300
+      },
+      {
+        "id": "1791639081624-sg2",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "Hammad_LY",
+        "price": 9.57,
+        "available": 49988.09
+      },
+      {
+        "id": "1791639081624-sg3",
+        "t": 1791639081624,
+        "kind": "gone",
+        "type": "sell",
+        "nickname": "MAHMUD-44",
+        "price": 9,
+        "available": 7500.48
+      }
+    ]
+  },
+  "dailyAdded": 0
+}

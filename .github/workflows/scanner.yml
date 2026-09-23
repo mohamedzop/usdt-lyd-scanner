@@ -1,0 +1,70 @@
+name: USDT/LYD Price Scanner (loop every minute)
+
+on:
+  schedule:
+    - cron: '7 * * * *'   # كل ساعة — وداخل التشغيل حلقة تمسح وترفع كل دقيقة
+  workflow_dispatch:        # زر تشغيل يدوي من واجهة GitHub
+
+permissions:
+  contents: write
+
+# التشغيل الأحدث يلغي الأقدم إن تداخلا
+concurrency:
+  group: scanner
+  cancel-in-progress: true
+
+jobs:
+  scan-loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 66
+    env:
+      LOOP_MINUTES: '58'   # دقائق المسح داخل كل تشغيل
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Scan & push loop (every minute)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "🔁 حلقة المسح: كل دقيقة لمدة ${LOOP_MINUTES} دقيقة"
+          END_TIME=$((SECONDS + LOOP_MINUTES * 60))
+          FIRST=1
+
+          while [ $SECONDS -lt $END_TIME ]; do
+            if [ "$FIRST" = "0" ]; then sleep 50; fi
+            FIRST=0
+
+            echo "── دورة $(date -u +'%H:%M:%S') ──"
+
+            # 1) المسح (فشل دورة واحدة لا يوقف الحلقة)
+            node scripts/gh-scan.js || { echo "⚠️ فشل المسح — نحاول الدورة القادمة"; continue; }
+
+            # 2) الحفظ والرفع فوراً (كوميت متجدد لا يضخّم السجل)
+            git add docs/data.json docs/history.json docs/newads.json docs/goneads.json docs/.prevads.json docs/.openads.json docs/daily/
+            if git diff --cached --quiet; then
+              echo "لا تغيير — تخطي الرفع"
+              continue
+            fi
+            MSG="📊 تحديث الأسعار $(date -u +'%Y-%m-%d %H:%M UTC')"
+            LAST_MSG=$(git log -1 --pretty=%s)
+            if [[ "$LAST_MSG" == 📊* ]]; then
+              git commit --amend -m "$MSG" -q
+              git push --force-with-lease origin main || {
+                git pull --rebase origin main
+                git commit --amend -m "$MSG" -q 2>/dev/null || true
+                git push origin main
+              }
+            else
+              git commit -m "$MSG" -q
+              git push origin main
+            fi
+            echo "✅ رُفع التحديث"
+          done
+          echo "انتهت حلقة الساعة"
