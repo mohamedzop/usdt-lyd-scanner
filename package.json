@@ -1,0 +1,14 @@
+{
+  "name": "lyd-usdt-scanner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ماسح لحظي لأسعار USDT/LYD على منصة بايننس P2P",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node server.js",
+    "scan": "node scanner.js --once",
+    "cli": "node scanner.js"
+  },
+  "keywords": ["binance", "p2p", "LYD", "USDT", "scanner"],
+  "license": "MIT"
+}
